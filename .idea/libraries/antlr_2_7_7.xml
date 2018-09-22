@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="antlr-2.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/classmate-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/hibernate-commons-annotations-5.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/hibernate-core-5.2.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/jandex-2.0.3.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/jboss-logging-3.3.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../servelets/hibernate-tutorial/lib/mysql-connector-java-5.1.45-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
