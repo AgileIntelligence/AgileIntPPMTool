@@ -51,7 +51,4 @@ public class BacklogController {
         ProjectTask projectTask = projectTaskService.findPTByProjectSequence(backlog_id, pt_id);
         return new ResponseEntity<ProjectTask>( projectTask, HttpStatus.OK);
     }
-
-
-
 }
