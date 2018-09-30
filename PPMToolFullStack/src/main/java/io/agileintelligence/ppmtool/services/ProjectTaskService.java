@@ -51,7 +51,7 @@ public class ProjectTaskService {
                 projectTask.setStatus("TO_DO");
             }
 
-            if(projectTask.getPriority()==null){ //In the future we need projectTask.getPriority()== 0 to handle the form
+            if(projectTask.getPriority()==0||projectTask.getPriority()==null){ //In the future we need projectTask.getPriority()== 0 to handle the form
                 projectTask.setPriority(3);
             }
 
