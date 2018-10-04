@@ -1,6 +1,7 @@
 import axios from "axios";
 import { GET_ERRORS, GET_BACKLOG, GET_PROJECT_TASK } from "./types";
 
+//Fix bug with priority in Spring Boot Server, needs to check null first
 export const addProjectTask = (
   backlog_id,
   project_task,
@@ -49,5 +50,26 @@ export const getProjectTask = (
     });
   } catch (err) {
     history.push("/dashboard");
+  }
+};
+
+export const updateProjectTask = (
+  backlog_id,
+  pt_id,
+  project_task,
+  history
+) => async dispatch => {
+  try {
+    await axios.patch(`/api/backlog/${backlog_id}/${pt_id}`, project_task);
+    history.push(`/projectBoard/${backlog_id}`);
+    dispatch({
+      type: GET_ERRORS,
+      payload: {}
+    });
+  } catch (err) {
+    dispatch({
+      type: GET_ERRORS,
+      payload: err.response.data
+    });
   }
 };

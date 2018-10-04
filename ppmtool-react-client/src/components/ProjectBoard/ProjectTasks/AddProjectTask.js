@@ -44,6 +44,7 @@ class AddProjectTask extends Component {
       priority: this.state.priority,
       dueDate: this.state.dueDate
     };
+
     this.props.addProjectTask(
       this.state.projectIdentifier,
       newTask,
