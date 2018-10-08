@@ -22,11 +22,10 @@ public class Backlog {
     @JsonIgnore
     private Project project;
 
-    //OneToMany projecttasks
+
     @OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "backlog", orphanRemoval = true)
     private List<ProjectTask> projectTasks = new ArrayList<>();
-    //Cascade REFRESH
-    //ORPHAN REMOVAL
+
 
 
     public Backlog() {

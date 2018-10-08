@@ -43,6 +43,8 @@ public class ProjectService {
 
     public Project findProjectByIdentifier(String projectId){
 
+        //Only want to return the project if the user looking for it is the owner
+
         Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
 
         if(project == null){
