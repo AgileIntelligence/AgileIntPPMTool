@@ -33,8 +33,8 @@ public class User implements UserDetails {
 
     //OneToMany with Project
     @OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "user", orphanRemoval = true)
-            //For user management you might wan to JsonIgnore
-    List<Project> projects = new ArrayList<>();
+    private List<Project> projects = new ArrayList<>();
+
 
     public User() {
     }
