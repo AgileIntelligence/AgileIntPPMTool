@@ -10,7 +10,7 @@
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+### IntelliJ IDEA ### removed idea
 .idea/
 *.iws
 *.iml
